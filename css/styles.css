@@ -239,12 +239,14 @@ img {
 
 .team {
    background-color: var(--bg-team-color);
+   padding-top: 94px;
+   padding-bottom: 94px;
 }
 
 .team-list {
    display: flex;
    text-align: center;
-   padding-bottom: 94px;
+
 }
 
 .team-list-item {
@@ -274,6 +276,8 @@ img {
 }
 
 .team-name {
+   margin-bottom: 10px;
+
    font-weight: 500;
    font-size: 16px;
    line-height: 1.2;
@@ -340,6 +344,14 @@ img {
 }
 
 /* Portfolio */
+
+
+
+.portfolio-main {
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
+
 .filter-list {
    display: flex;
    justify-content: center;
