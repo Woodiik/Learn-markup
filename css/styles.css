@@ -19,6 +19,7 @@ ul {
    padding: 0;
 }
 
+
 h1,
 h2,
 h3,
@@ -30,10 +31,13 @@ p {
    margin-top: 0;
 }
 
-section {
-   padding-top: 94px;
-   padding-bottom: 94px;
+img {
+   display: block;
+   max-width: 100%;
+   height: auto;
 }
+
+
 
 .container {
    width: 1200px;
@@ -113,7 +117,6 @@ section {
 }
 
 .contacts {
-   margin-left: auto;
    letter-spacing: 0.02em;
    font-weight: 500;
    font-style: normal;
@@ -121,6 +124,10 @@ section {
    line-height: 1.1;
    color: var(--secondary-text-color);
    text-decoration: none;
+}
+
+.contacts-block {
+   margin-left: auto;
 }
 
 .contacts:last-child {
@@ -135,6 +142,8 @@ section {
 .banner {
    background-color: var(--bg-secondary-color);
    text-align: center;
+   padding-top: 200px;
+   padding-bottom: 200px;
 }
 
 .title {
@@ -167,6 +176,8 @@ section {
 
 .advantage {
    background-color: var(--white-main-color);
+   padding-top: 94px;
+   padding-bottom: 94px;
 }
 
 .advantage-list {
@@ -193,6 +204,7 @@ section {
 }
 
 .advantage-dicr {
+   width: 270px;
    font-size: 14px;
    line-height: 1.7;
    letter-spacing: 0.03em;
@@ -201,6 +213,7 @@ section {
 
 .about {
    background-color: var(--white-main-color);
+   padding-bottom: 94px;
 }
 
 .about-list {
@@ -231,10 +244,13 @@ section {
 .team-list {
    display: flex;
    text-align: center;
+   padding-bottom: 94px;
 }
 
 .team-list-item {
    margin-left: 30px;
+   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+   border-radius: 0 0 4px 4px;
 }
 
 .team-list-item:first-child {
@@ -250,9 +266,14 @@ section {
    letter-spacing: 0.03em;
 }
 
+.name-position {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   background-color: var(--white-main-color);
+   border-radius: 0 0 4px 4px;
+}
+
 .team-name {
-   margin-bottom: 10px;
-   margin-top: 30px;
    font-weight: 500;
    font-size: 16px;
    line-height: 1.2;
@@ -260,7 +281,6 @@ section {
 }
 
 .team-position {
-   margin-bottom: 30px;
    font-size: 16px;
    line-height: 1.2;
    letter-spacing: 0.03em;
@@ -269,12 +289,13 @@ section {
 
 .footer {
    background-color: var(--bg-secondary-color);
+   padding-bottom: 60px;
+   padding-top: 60px;
 }
 
 .logo-footer {
-   display: inline-block;
-   margin-top: 60px;
    margin-bottom: 20px;
+   display: inline-block;
    font-family: "Raleway";
    font-weight: 700;
    font-size: 26px;
@@ -285,7 +306,7 @@ section {
 }
 
 .superscription {
-   margin-bottom: 10px;
+   margin-bottom: 6px;
    font-size: 14px;
    line-height: 1.7;
    font-style: normal;
@@ -296,7 +317,6 @@ section {
 .address {
    display: flex;
    flex-direction: column;
-   padding-bottom: 60px;
 }
 
 .contacts-footer {
@@ -308,9 +328,11 @@ section {
    font-style: normal;
 }
 
-.contacts-footer:first-child {
+.first {
    margin-bottom: 10px;
 }
+
+
 
 .contacts-footer:hover,
 .contacts-footer:focus {
@@ -374,7 +396,7 @@ section {
 .item-box {
    border: 1px solid #EEEEEE;
    border-top: none;
-   padding-top: 20px;
+   padding: 20px 24px;
 }
 
 .project-img {
@@ -382,7 +404,7 @@ section {
 }
 
 .project-name {
-   margin-left: 24px;
+
 
    margin-bottom: 4px;
    font-weight: 700;
@@ -392,8 +414,7 @@ section {
 }
 
 .project-type {
-   margin-left: 24px;
-   margin-bottom: 20px;
+
    font-size: 16px;
    line-height: 1.9;
    letter-spacing: 0.03em;
